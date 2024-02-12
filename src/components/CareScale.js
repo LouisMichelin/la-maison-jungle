@@ -1,6 +1,9 @@
 import Sun from '../assets/sun.svg'
 import Water from '../assets/water.svg'
 
+import { useState } from 'react'
+
+
 function CareScale({ scaleValue, careType }) {
 	const range = [1, 2, 3]
 	const scaleType =

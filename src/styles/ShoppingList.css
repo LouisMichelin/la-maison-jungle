@@ -1,4 +1,4 @@
-.each-plant {
+/* .each-plant {
   display:flex;
 }
 
@@ -7,4 +7,15 @@
   background-color: #31b572;
   padding: 0 5px 0 5px;
   margin-left: 5px;
+} */
+.lmj-shopping-list {
+	width: 100%;
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
